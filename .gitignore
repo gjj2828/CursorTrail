@@ -1,0 +1,47 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+xcuserdata/
+DerivedData/
+
+# Build artifacts
+*.app
+*.dSYM
+*.ipa
+*.xcarchive
+
+# Xcode temporary files
+*.swiftdeps
+*.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Package managers
+.package/
+Package.resolved
+
+# Misc
+*.log
